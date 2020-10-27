@@ -68,4 +68,5 @@ Unlike generators, where anything containing a yield becomes a generator, anythi
 * The super() call is a special case of the compiler that works differently if renamed [https://stackoverflow.com/a/19609168/539465](https://stackoverflow.com/a/19609168/539465)
 * The standard library uses inconsistent naming schemes e.g.: `os.path.expanduser` and `os.path.supports_unicode_filenames`
 (former does not separate words by underscore, while the latter does)
+* The packaging process in Python takes forever and is overly complex
 
